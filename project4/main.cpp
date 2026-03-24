@@ -1,6 +1,6 @@
 #include<iostream>
 #include<vector>
-using namespace std;
+using namespace std;;
 
  int main(){
      
@@ -10,7 +10,7 @@ using namespace std;
      do {
          //display menu
          cout<<"\nP- Print numbers"<<endl;
-         cout<<"A- Add a number"<<endl;
+         cout<<"A- Add your number"<<endl;
          cout<<"M- Display menu of the numbers"<<endl;
          cout<<"S- Display smallest number"<<endl;
          cout<<"L- Display largest number"<<endl;
@@ -69,10 +69,10 @@ using namespace std;
             }
             }
             else if (selection == 'Q' || selection == 'q') {
-            cout << "Goodbye" << endl;
+            cout << "Good bye" << endl;
             }
             else {
-            cout << "Unknown selection, please try again" << endl;
+            cout << "Unknown selection,please try again" << endl;
             }
      }while (selection!='q'&&selection!='Q');
      
