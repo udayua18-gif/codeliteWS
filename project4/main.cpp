@@ -69,7 +69,7 @@ using namespace std;;
             }
             }
             else if (selection == 'Q' || selection == 'q') {
-            cout << "Good bye" << endl;
+            cout << "Goodbye" << endl;
             }
             else {
             cout << "Unknown selection,please try again" << endl;
