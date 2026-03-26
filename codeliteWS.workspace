@@ -3,19 +3,21 @@
   <Project Name="project1" Path="project1/project1.project" Active="No"/>
   <Project Name="project2" Path="project2/project2.project" Active="No"/>
   <Project Name="project3" Path="project3/project3.project" Active="No"/>
-  <Project Name="project4" Path="project4/project4.project" Active="Yes"/>
-  <Project Name="projet_camara" Path="projet_camara/projet_camara.project"/>
+  <Project Name="project4" Path="project4/project4.project" Active="No"/>
+  <Project Name="projet_camara" Path="projet_camara/projet_camara.project" Active="No"/>
+  <Project Name="project6" Path="project6/project6.project" Active="Yes"/>
   <BuildMatrix>
-    <WorkspaceConfiguration Name="Release">
-      <Environment/>
-      <Project Name="project2" ConfigName="Release"/>
-      <Project Name="project4" ConfigName="Release"/>
-    </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
       <Project Name="project1" ConfigName="Debug"/>
       <Project Name="project3" ConfigName="Debug"/>
       <Project Name="projet_camara" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release">
+      <Environment/>
+      <Project Name="project2" ConfigName="Release"/>
+      <Project Name="project4" ConfigName="Release"/>
+      <Project Name="project6" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
